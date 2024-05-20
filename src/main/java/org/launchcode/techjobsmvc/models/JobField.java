@@ -11,6 +11,7 @@ public abstract class JobField {
     public JobField() {
         id = nextId;
         nextId++;
+
     }
 
     // Constructor that takes a string as a parameter and assigns it to the 'value' field, and also
